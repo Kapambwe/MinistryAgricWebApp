@@ -1,0 +1,176 @@
+{
+  "Minister": [ "*" ],
+  "PermanentSecretary": [ "*" ],
+  "SmartZambiaAdmin": [
+    "Ministry.Access",
+    "Ministry.Subsidy.SystemAdministration",
+    "Ministry.Subsidy.Reporting",
+    "Ministry.Subsidy.View"
+  ],
+  "NationalSubsidyManager": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.ManageSuppliers",
+    "Ministry.Subsidy.Reporting",
+    "Ministry.Subsidy.FinancialOversight",
+    "Ministry.Subsidy.SystemAdministration",
+    "Ministry.Dashboards.Analytics",
+    "Ministry.AIAssistant.Access"
+  ],
+  "RegionalSubsidyCoordinator": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.Reporting",
+    "Ministry.Subsidy.ManageBeneficiaries",
+    "Ministry.Subsidy.ApproveLists",
+    "Ministry.Dashboards.Analytics"
+  ],
+  "LocalSubsidyCoordinator": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.Reporting",
+    "Ministry.Subsidy.ManageBeneficiaries",
+    "Ministry.Subsidy.ApproveLists",
+    "Ministry.Subsidy.QualityControl"
+  ],
+  "AreaExtensionSupervisor": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.ManageBeneficiaries",
+    "Ministry.Subsidy.ApproveLists",
+    "Ministry.Subsidy.ExtensionServices",
+    "Ministry.Subsidy.Reporting"
+  ],
+  "FieldExtensionOfficer": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.ExtensionServices",
+    "Ministry.Subsidy.ManageBeneficiaries",
+    "Ministry.Subsidy.ApproveLists",
+    "Ministry.Subsidy.Reporting",
+    "Ministry.AIAssistant.Access"
+  ],
+  "SupplyChainPartner": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.InputRedemption",
+    "Ministry.Subsidy.Reporting"
+  ],
+  "InspectionQualityOfficer": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.QualityControl",
+    "Ministry.Subsidy.Reporting"
+  ],
+  "FinancialPartner": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.FinancialOversight",
+    "Ministry.Subsidy.Reporting"
+  ],
+  "ProcurementContractManager": [
+    "Ministry.Access",
+    "Ministry.Subsidy.View",
+    "Ministry.Subsidy.ManageSuppliers",
+    "Ministry.Subsidy.FinancialOversight",
+    "Ministry.Subsidy.Reporting"
+  ],
+  "DirectorAgriculture": [
+    "Ministry.Access",
+    "Ministry.Dashboard.View",
+    "Ministry.Dashboards.StrategicPlan",
+    "Ministry.Dashboards.Analytics",
+    "Ministry.StrategicPlan.View",
+    "Ministry.StrategicPlan.Targets",
+    "Ministry.StrategicPlan.Outcomes",
+    "Ministry.StrategicPlan.Analytics.GeoMapping",
+    "Ministry.Production.View",
+    "Ministry.Monitoring.View",
+    "Ministry.AIAssistant.Access",
+    "Ministry.Crops.View",
+    "Ministry.Livestock.View"
+  ],
+  "DirectorCrops": [
+    "Ministry.Access",
+    "Ministry.Dashboard.View",
+    "Ministry.Crops.View",
+    "Ministry.Crops.ProductionTracking",
+    "Ministry.Crops.DiseaseSurveillance",
+    "Ministry.Crops.SeedCertification",
+    "Ministry.Crops.ExtensionServices",
+    "Ministry.StrategicPlan.View",
+    "Ministry.Monitoring.RiskAlerts"
+  ],
+  "DirectorLivestock": [
+    "Ministry.Access",
+    "Ministry.Dashboard.View",
+    "Ministry.Livestock.View",
+    "Ministry.Livestock.AnimalHealth",
+    "Ministry.Livestock.VeterinaryServices",
+    "Ministry.Livestock.BreedingPrograms",
+    "Ministry.Livestock.Traceability",
+    "Ministry.StrategicPlan.View",
+    "Ministry.Monitoring.DiseaseSurveillance"
+  ],
+  "DirectorAgriEconomics": [
+    "Ministry.Access",
+    "Ministry.Dashboard.View",
+    "Ministry.Dashboards.Economics",
+    "Ministry.AgriEconomics.View",
+    "Ministry.AgriEconomics.MarketAnalysis",
+    "Ministry.AgriEconomics.PriceMonitoring",
+    "Ministry.AgriEconomics.TradePolicy",
+    "Ministry.AgriEconomics.SubsidyImpact",
+    "Ministry.AgriEconomics.EconomicForecasting",
+    "Ministry.StrategicPlan.View",
+    "Ministry.Dashboards.Analytics"
+  ],
+  "AgriEconomist": [
+    "Ministry.Access",
+    "Ministry.AgriEconomics.View",
+    "Ministry.AgriEconomics.MarketAnalysis",
+    "Ministry.AgriEconomics.PriceMonitoring",
+    "Ministry.AgriEconomics.EconomicForecasting"
+  ],
+  "WarehouseRegistrar": [
+    "Ministry.Access",
+    "Ministry.Dashboards.Warehouse",
+    "Ministry.WarehouseReceipts.View",
+    "Ministry.WarehouseReceipts.ManageLicenses",
+    "Ministry.WarehouseReceipts.ProcessApplications",
+    "Ministry.WarehouseReceipts.ScheduleInspections",
+    "Ministry.WarehouseReceipts.ManageComplianceOrders",
+    "Ministry.WarehouseReceipts.ManageClosures",
+    "Ministry.WarehouseReceipts.ReceiptOversight",
+    "Ministry.WarehouseReceipts.ContractMonitoring",
+    "Ministry.WarehouseReceipts.AgriculturalCharges",
+    "Ministry.WarehouseReceipts.ViewAnalytics"
+  ],
+  "FinancialCrimeAnalyst": [
+    "Ministry.Access",
+    "Ministry.Dashboards.FinancialCrime",
+    "Ministry.FinancialCrime.View",
+    "Ministry.FinancialCrime.AnalyzeFraud",
+    "Ministry.FinancialCrime.DecisionReview",
+    "Ministry.FinancialCrime.ManageDecisionRules",
+    "Ministry.FinancialCrime.NetworkAnalysis",
+    "Ministry.FinancialCrime.MLModelOversight",
+    "Ministry.FinancialCrime.Investigations",
+    "Ministry.WarehouseReceipts.FraudDetection",
+    "Ministry.AIAssistant.Access",
+    "Ministry.AIAssistant.AdvancedTools"
+  ],
+  "Auditor": [
+    "Ministry.Access",
+    "Ministry.Dashboard.View",
+    "Ministry.WarehouseReceipts.View",
+    "Ministry.WarehouseReceipts.ViewAnalytics",
+    "Ministry.FinancialCrime.View",
+    "Ministry.ExportImport.View",
+    "Ministry.StrategicPlan.View"
+  ],
+  "Viewer": [
+    "Ministry.Access",
+    "Ministry.Dashboard.View"
+  ]
+}

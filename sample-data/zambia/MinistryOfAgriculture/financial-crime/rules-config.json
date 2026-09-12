@@ -1,0 +1,11 @@
+{
+  "rules": [
+    { "ruleId": "RULE-001", "name": "Ghost Farmer Detection", "priority": 10, "isActive": true },
+    { "ruleId": "RULE-002", "name": "Export Under-Invoicing", "priority": 8, "isActive": true },
+    { "ruleId": "RULE-003", "name": "Duplicate Subsidy Claim", "priority": 9, "isActive": true },
+    { "ruleId": "RULE-004", "name": "Production Inflation", "priority": 7, "isActive": true },
+    { "ruleId": "RULE-005", "name": "Supply Chain Risk", "priority": 6, "isActive": true },
+    { "ruleId": "RULE-006", "name": "Animal Disease Risk", "priority": 9, "isActive": true },
+    { "ruleId": "RULE-007", "name": "Export Obligation Compliance", "priority": 5, "isActive": true }
+  ]
+}

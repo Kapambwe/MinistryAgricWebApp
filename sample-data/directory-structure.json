@@ -1,0 +1,19 @@
+{
+  "zambia": {
+    "Ministry": [
+      "MinistryOfAgriculture",
+      "MinistryOfLivestock",
+      "MinistryOfFinance"
+    ],
+    "Retail": [
+      "Shoprite",
+      "PickNPay",
+      "Choppies"
+    ]
+  },
+  "kenya": {
+    "Ministry": [
+      "MinistryOfAgricultureKenya"
+    ]
+  }
+}

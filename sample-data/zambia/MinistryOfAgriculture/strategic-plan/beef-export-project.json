@@ -1,0 +1,37 @@
+{
+  "projectName": "Zambia Beef Export Project",
+  "targetEarningsGoal": 1000000000,
+  "targetYear": 2031,
+  "certifiedCompartments": [
+    { "province": "Central", "count": 6, "status": "Active" },
+    { "province": "Eastern", "count": 5, "status": "Active" },
+    { "province": "Southern", "count": 5, "status": "Active" }
+  ],
+  "expansionProvinces": [ "Western", "Copperbelt", "North-Western", "Muchinga", "Luapula" ],
+  "keyInterventions": [
+    "Vaccination Programmes",
+    "Strengthened Biosecurity Measures",
+    "Animal Identification Systems (AIS)",
+    "Feed Improvement Initiatives"
+  ],
+  "complianceStandards": [ "OIE International Standards", "EU Export Requirements" ],
+  "farmerSupport": {
+    "technicalGuidance": "Available",
+    "cooperativeLinkages": "Chiefdom-based",
+    "feedlotLinkages": "Active"
+  },
+  "exportMarkets": [
+    { "region": "Africa", "count": 15, "activeCountries": ["DRC"] },
+    { "region": "Middle East", "count": 3, "activeCountries": [] },
+    { "region": "Oceania", "count": 2, "activeCountries": [] }
+  ],
+  "mortality": {
+    "previousRate": 12.0,
+    "currentRate": 7.0,
+    "animalsSavedAnnually": 200000
+  },
+  "herd": {
+    "currentSize": 3500000,
+    "targetSize": 5000000
+  }
+}

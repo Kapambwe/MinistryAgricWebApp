@@ -1,0 +1,22 @@
+{
+  "marketTrends": [
+    { "commodity": "Maize", "price": 4200.0, "change": 5.2, "status": "Rising" },
+    { "commodity": "Soya Beans", "price": 12500.0, "change": -2.1, "status": "Stable" },
+    { "commodity": "Wheat", "price": 8400.0, "change": 1.5, "status": "Rising" }
+  ],
+  "priceMonitoring": [
+    { "region": "Lusaka", "averagePrice": 4100.0, "supplyLevel": "High" },
+    { "region": "Copperbelt", "averagePrice": 4350.0, "supplyLevel": "Medium" },
+    { "region": "Southern", "averagePrice": 3900.0, "supplyLevel": "High" }
+  ],
+  "exportAnalysis": {
+    "totalValue": 1250000000.0,
+    "topDestinations": ["DRC", "South Africa", "China", "UAE"],
+    "growthRate": 12.5
+  },
+  "economicForecast": {
+    "gdpContribution": 18.5,
+    "projectedGrowth": 4.2,
+    "inflationImpact": "Moderate"
+  }
+}

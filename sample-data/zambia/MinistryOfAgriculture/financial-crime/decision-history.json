@@ -1,0 +1,49 @@
+[
+  {
+    "decisionId": "DEC-2026-0001",
+    "decisionTimestamp": "2026-04-25T10:30:00",
+    "entityId": "ENT-1234",
+    "transactionId": "TXN-5678",
+    "compositeRiskScore": 85.5,
+    "riskLevel": 2,
+    "outcome": 3,
+    "confidenceScore": 0.92,
+    "entityRiskScore": 45.0,
+    "transactionRiskScore": 90.0,
+    "networkRiskScore": 75.0,
+    "behavioralRiskScore": 60.0,
+    "executiveSummary": "Investigation case recommended (High risk: 86/100)",
+    "explanation": "Multiple rules triggered including Ghost Farmer detection. High fraud probability from ML model.",
+    "isAutomated": true,
+    "decisionMaker": "Agriculture Fraud Detection System",
+    "triggeredRules": [
+      {
+        "ruleId": "RULE-001",
+        "ruleName": "Ghost Farmer Detection",
+        "riskScore": 90.0,
+        "priority": 10,
+        "evidence": "National ID does not match registration records",
+        "triggeredAt": "2026-04-25T10:30:00"
+      }
+    ]
+  },
+  {
+    "decisionId": "DEC-2026-0002",
+    "decisionTimestamp": "2026-04-25T11:15:00",
+    "entityId": "ENT-4321",
+    "transactionId": "TXN-8765",
+    "compositeRiskScore": 12.0,
+    "riskLevel": 0,
+    "outcome": 0,
+    "confidenceScore": 0.98,
+    "entityRiskScore": 10.0,
+    "transactionRiskScore": 5.0,
+    "networkRiskScore": 15.0,
+    "behavioralRiskScore": 10.0,
+    "executiveSummary": "Application approved automatically (Low risk: 12/100)",
+    "explanation": "No rules triggered. Low risk profile across all components.",
+    "isAutomated": true,
+    "decisionMaker": "Agriculture Fraud Detection System",
+    "triggeredRules": []
+  }
+]

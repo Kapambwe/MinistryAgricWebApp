@@ -1,0 +1,58 @@
+[
+  {
+    "id": "agri-economics",
+    "name": "Agriculture Economics",
+    "type": "Economics",
+    "description": "Economic analysis, market trends, and policy forecasting.",
+    "icon": "trending_up",
+    "colorGradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+    "dataFile": "agri-economics.json",
+    "route": "strategic-plan/economics-dashboard",
+    "summaryMetrics": [
+      { "label": "GDP Contrib.", "value": "18.5%", "trend": "Stable" },
+      { "label": "Export Growth", "value": "12.5%", "trend": "+2% YoY" }
+    ]
+  },
+  {
+    "id": "saff-financing",
+    "name": "Sustainable Agriculture Financing Facility",
+    "type": "Financing",
+    "description": "Access low interest farming loans to cultivate up to 5 ha of crop.",
+    "icon": "account_balance",
+    "colorGradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+    "dataFile": "saff-financing.json",
+    "route": "strategic-plan/saff-dashboard",
+    "summaryMetrics": [
+      { "label": "Disbursed", "value": "ZMW 125M", "trend": "+12%" },
+      { "label": "Farmers", "value": "8,200", "trend": "+5%" }
+    ]
+  },
+  {
+    "id": "beef-export",
+    "name": "Beef Export Project",
+    "type": "Livestock",
+    "description": "National initiative to achieve $1B in annual beef exports.",
+    "icon": "agriculture",
+    "colorGradient": "linear-gradient(135deg, #1a472a 0%, #2d5a27 100%)",
+    "dataFile": "beef-export-project.json",
+    "route": "livestock/beef-export-dashboard",
+    "summaryMetrics": [
+      { "label": "Target", "value": "$1 Billion", "trend": "Target 2031" },
+      { "label": "Survival", "value": "93%", "trend": "+5% improvement" }
+    ]
+  },
+  {
+    "id": "land-restoration",
+    "name": "Barotse Land Restoration",
+    "type": "Sustainability",
+    "description": "40-year initiative to restore 1.2M hectares of degraded land.",
+    "icon": "eco",
+    "colorGradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+    "dataFile": "barotse-restoration.json",
+    "route": "strategic-dashboard",
+    "summaryMetrics": [
+      { "label": "Restored", "value": "1.2M Ha", "trend": "In Progress" },
+      { "label": "Impact", "value": "400k People", "trend": "Target" }
+    ]
+  }
+]

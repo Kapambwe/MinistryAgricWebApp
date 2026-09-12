@@ -1,0 +1,11 @@
+{
+  "cropTypes": ["Tobacco", "Cotton", "Maize", "Soybeans", "Coffee", "Groundnuts"],
+  "productTypes": ["Tobacco", "Cotton", "Maize", "Soybeans", "Coffee"],
+  "bankNames": ["Zambia National Commercial Bank", "Standard Chartered Bank", "First National Bank", "Absa Bank"],
+  "provinces": ["Central", "Eastern", "Southern", "Lusaka", "Copperbelt", "Northern", "North-Western", "Western", "Muchinga", "Luapula"],
+  "destinations": ["China", "South Africa", "European Union", "United Arab Emirates", "India"],
+  "entityNames": [
+    "John Mwale", "Grace Banda", "Chisamba Enterprises", "Kabwe Farms Ltd", "Mulenga Cooperatives",
+    "Sampa Agriculture", "Mwanza Silos", "Zambia Grain Hub", "Northern Green Farms"
+  ]
+}

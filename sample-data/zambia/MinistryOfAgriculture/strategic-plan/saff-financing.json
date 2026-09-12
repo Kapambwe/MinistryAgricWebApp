@@ -1,0 +1,28 @@
+{
+  "projectName": "Sustainable Agriculture Financing Facility (SAFF)",
+  "description": "Innovative initiative designed to empower Zambia's small-scale farmers by providing them with access to essential financial resources.",
+  "maxHectaresPerFarmer": 5.0,
+  "interestRate": 12.0,
+  "isCollateralRequired": false,
+  "benefits": [
+    "Affordability - Non-collateral low interest rate loan",
+    "Choice - Get quality inputs from preferred agro-dealers",
+    "Assured Market - Sale produce to nearest FRA depot"
+  ],
+  "participatingBanks": [
+    "ABSA",
+    "Atlas Mara",
+    "Natsave",
+    "Indo Zambia",
+    "Zanaco"
+  ],
+  "marketAssurance": "Food Reserve Agency (FRA) depots",
+  "statistics": {
+    "totalApplications": 15420,
+    "approvedLoans": 8750,
+    "totalDisbursedAmount": 125000000.0,
+    "targetAmount": 500000000.0,
+    "farmersReached": 8200,
+    "averageLoanSize": 14285.0
+  }
+}

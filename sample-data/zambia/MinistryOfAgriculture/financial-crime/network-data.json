@@ -1,0 +1,24 @@
+{
+  "communities": [
+    {
+      "communityId": "COM-001",
+      "members": [ "ENT-1001", "ENT-1002", "ENT-1003" ],
+      "riskScore": 85.5,
+      "description": "Potential fraud ring - shared bank accounts and coordinated applications"
+    },
+    {
+      "communityId": "COM-002",
+      "members": [ "ENT-2001", "ENT-2002", "ENT-2003", "ENT-2004" ],
+      "riskScore": 12.0,
+      "description": "Normal farmer cooperative"
+    }
+  ],
+  "suspiciousReasons": [
+    "Shared bank account",
+    "Multiple transactions same day",
+    "Connected to known fraudster",
+    "Same address",
+    "Family member with fraud history",
+    "Coordinated application timing"
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "chargeId": "9b0c1d2e-f3a4-4b5c-6d7e-8f9a0b1c2d3e",
+    "chargeNumber": "AGC-2026-00001",
+    "creationDate": "2026-04-01T09:00:00",
+    "registrationDate": "2026-04-04T11:00:00",
+    "chargeType": 0,
+    "status": 0,
+    "collateralRegistryRegistered": true,
+    "collateralRegistryNumber": "CRG-2026-045",
+    "securedAmount": 150000.0,
+    "chargor": {
+      "name": "John Mwale",
+      "idNumber": "123456/78/9",
+      "farmLocation": "Chongwe District, Lusaka",
+      "contactInfo": "+260 977 123456"
+    },
+    "chargee": {
+      "name": "Zambia Agricultural Finance",
+      "licenseNumber": "FL-2025-001",
+      "type": 0
+    },
+    "assets": {
+      "crops": [ "Maize - 100MT", "Soya - 50MT" ],
+      "equipment": [ "Tractor - John Deere 5055E" ],
+      "description": "Growing crops and farm equipment",
+      "estimatedValue": 200000.0
+    },
+    "compliance": {
+      "registrationWithin14Days": true,
+      "registrationDelayDays": 3,
+      "priorityConflict": false,
+      "excessiveLeverage": false,
+      "leverageRatio": 0.75
+    },
+    "riskFlags": []
+  }
+]

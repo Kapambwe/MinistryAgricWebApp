@@ -1,0 +1,117 @@
+[
+  {
+    "contractId": "a1111111-1111-1111-1111-111111111111",
+    "contractNumber": "COA-2026-00001",
+    "contractDate": "2026-04-05T10:00:00",
+    "lodgementDate": "2026-04-07T14:00:00",
+    "receiptNumber": "EWR-2026-00001",
+    "status": 0,
+    "collateralRegistryConfirmed": true,
+    "collateralRegistryNumber": "CR-2026-123",
+    "borrower": {
+      "name": "John Mwale Farms",
+      "idNumber": "123456/78/9",
+      "contactPhone": "+260 977 123456",
+      "address": "Chongwe District, Lusaka",
+      "isVerified": true
+    },
+    "lender": {
+      "name": "Zambia Agricultural Finance",
+      "licenseNumber": "FL-2025-001",
+      "isLicensed": true,
+      "type": 2,
+      "contactInfo": "info@zaf.zm"
+    },
+    "terms": {
+      "principalAmount": 100000.0,
+      "interestRate": 18.0,
+      "apr": 19.5,
+      "termMonths": 6,
+      "maturityDate": "2026-10-05T00:00:00",
+      "processingFee": 3000.0,
+      "otherFees": 500.0,
+      "totalRepayment": 112000.0,
+      "repaymentSchedule": "Monthly interest, balloon payment at maturity"
+    },
+    "disclosure": {
+      "disclosureDate": "2026-04-06T10:00:00",
+      "providedWithin48Hours": true,
+      "allFeesDisclosed": true,
+      "totalCostOfCredit": 15500.0,
+      "fees": [
+        { "feeType": "Processing Fee", "amount": 3000.0, "description": "One-time processing fee" },
+        { "feeType": "Valuation Fee", "amount": 500.0, "description": "Commodity valuation" },
+        { "feeType": "Interest", "amount": 12000.0, "description": "18% per annum for 6 months" }
+      ]
+    },
+    "compliance": {
+      "lodgementWithin7Days": true,
+      "lodgementDelayDays": 2,
+      "disclosureCompliant": true,
+      "interestRateFair": true,
+      "excessiveFeesDetected": false,
+      "complianceScore": 95.0,
+      "issues": []
+    }
+  },
+  {
+    "contractId": "b2222222-2222-2222-2222-222222222222",
+    "contractNumber": "COA-2026-00002",
+    "contractDate": "2026-04-15T10:00:00",
+    "lodgementDate": "2026-04-24T14:00:00",
+    "receiptNumber": "EWR-2026-00002",
+    "status": 0,
+    "collateralRegistryConfirmed": false,
+    "borrower": {
+      "name": "Grace Banda Cooperative",
+      "idNumber": "987654/32/1",
+      "contactPhone": "+260 966 789012",
+      "address": "Kasama, Northern Province",
+      "isVerified": true
+    },
+    "lender": {
+      "name": "Northern Credit Union",
+      "licenseNumber": "FL-2025-012",
+      "isLicensed": true,
+      "type": 3,
+      "contactInfo": "loans@ncu.zm"
+    },
+    "terms": {
+      "principalAmount": 80000.0,
+      "interestRate": 28.0,
+      "apr": 35.0,
+      "termMonths": 4,
+      "maturityDate": "2026-08-15T00:00:00",
+      "processingFee": 6000.0,
+      "otherFees": 2000.0,
+      "totalRepayment": 98000.0,
+      "repaymentSchedule": "Single balloon payment"
+    },
+    "disclosure": {
+      "disclosureDate": "2026-04-18T10:00:00",
+      "providedWithin48Hours": false,
+      "allFeesDisclosed": true,
+      "totalCostOfCredit": 18000.0,
+      "fees": [
+        { "feeType": "Processing Fee", "amount": 6000.0 },
+        { "feeType": "Administration", "amount": 2000.0 },
+        { "feeType": "Interest", "amount": 10000.0 }
+      ]
+    },
+    "compliance": {
+      "lodgementWithin7Days": false,
+      "lodgementDelayDays": 9,
+      "disclosureCompliant": false,
+      "interestRateFair": false,
+      "excessiveFeesDetected": true,
+      "complianceScore": 40.0,
+      "issues": [
+        "Late lodgement - 9 days",
+        "Disclosure provided after 48-hour window",
+        "Interest rate exceeds 25% threshold",
+        "Processing fee exceeds 5% of principal",
+        "APR significantly higher than stated interest rate"
+      ]
+    }
+  }
+]

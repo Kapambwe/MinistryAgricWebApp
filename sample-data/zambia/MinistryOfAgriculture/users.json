@@ -1,0 +1,74 @@
+[
+  {
+    "username": "minister.moa",
+    "displayName": "Hon. Peter Kapala",
+    "role": "Minister",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "ps.moa",
+    "displayName": "Douty Chibamba",
+    "role": "PermanentSecretary",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "director.economics",
+    "displayName": "Director Agri Economics",
+    "role": "DirectorAgriEconomics",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "director.livestock",
+    "displayName": "Dr. Misheck Mulumba",
+    "role": "DirectorLivestock",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "registrar.wrs",
+    "displayName": "WRS Registrar",
+    "role": "WarehouseRegistrar",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "coordinator.subsidy",
+    "displayName": "National FISP Coordinator",
+    "role": "NationalSubsidyManager",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "analyst.crime",
+    "displayName": "Quantexa Analyst",
+    "role": "FinancialCrimeAnalyst",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  },
+  {
+    "username": "auditor.general",
+    "displayName": "Lead Auditor",
+    "role": "Auditor",
+    "tenantCode": "MOA",
+    "tenantName": "Ministry of Agriculture",
+    "country": "zambia",
+    "institutionType": "Ministry"
+  }
+]

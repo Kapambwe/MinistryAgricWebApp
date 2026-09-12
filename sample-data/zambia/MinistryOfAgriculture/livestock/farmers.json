@@ -1,0 +1,84 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111111",
+    "name": "Patson Lweele",
+    "nationalId": "123456/10/1",
+    "province": "Central",
+    "chiefdom": "Chisamba",
+    "cooperativeName": "Chisamba Livestock Co-op",
+    "herdSize": 450,
+    "isInDiseaseFreeCompartment": true,
+    "ais_Status": "Registered",
+    "linkedFeedlot": "Zambia Beef Feedlots Ltd",
+    "graduationStatus": 1,
+    "progress": {
+      "averageYieldPerHectare": 5.2,
+      "annualIncome": 75000.0,
+      "assetValue": 250000.0,
+      "yearsInProgram": 4,
+      "productionGrowthRate": 15.5,
+      "seasonalMetrics": [
+        { "season": "2023/24", "yield": 4.5, "income": 60000 },
+        { "season": "2024/25", "yield": 5.2, "income": 75000 }
+      ]
+    },
+    "subsidyHistory": [
+      { "programName": "FISP", "dateReceived": "2023-11-01T00:00:00", "value": 5000, "season": "2023/24" },
+      { "programName": "FISP", "dateReceived": "2024-11-01T00:00:00", "value": 4500, "season": "2024/25" }
+    ]
+  },
+  {
+    "id": "22222222-2222-2222-2222-222222222222",
+    "name": "Grace Banda",
+    "nationalId": "654321/20/1",
+    "province": "Southern",
+    "chiefdom": "Monze",
+    "cooperativeName": "Monze Beef Producers",
+    "herdSize": 120,
+    "isInDiseaseFreeCompartment": true,
+    "ais_Status": "Registered",
+    "linkedFeedlot": "Southern Export Hub",
+    "graduationStatus": 0,
+    "progress": {
+      "averageYieldPerHectare": 3.1,
+      "annualIncome": 25000.0,
+      "assetValue": 85000.0,
+      "yearsInProgram": 2,
+      "productionGrowthRate": 8.0,
+      "seasonalMetrics": [
+        { "season": "2024/25", "yield": 3.1, "income": 25000 }
+      ]
+    },
+    "subsidyHistory": [
+      { "programName": "FISP", "dateReceived": "2024-11-15T00:00:00", "value": 5000, "season": "2024/25" }
+    ]
+  },
+  {
+    "id": "55555555-5555-5555-5555-555555555555",
+    "name": "Samuel Mazoka",
+    "nationalId": "112233/44/1",
+    "province": "Eastern",
+    "chiefdom": "Chipata",
+    "cooperativeName": "Chipata Grain Growers",
+    "herdSize": 15,
+    "isInDiseaseFreeCompartment": false,
+    "ais_Status": "Registered",
+    "linkedFeedlot": "None",
+    "graduationStatus": 2,
+    "graduationDate": "2025-03-20T00:00:00",
+    "progress": {
+      "averageYieldPerHectare": 7.5,
+      "annualIncome": 120000.0,
+      "assetValue": 450000.0,
+      "yearsInProgram": 6,
+      "productionGrowthRate": 25.0,
+      "seasonalMetrics": [
+        { "season": "2022/23", "yield": 6.2, "income": 95000 },
+        { "season": "2023/24", "yield": 7.5, "income": 120000 }
+      ]
+    },
+    "subsidyHistory": [
+      { "programName": "FISP", "dateReceived": "2022-10-01T00:00:00", "value": 5000, "season": "2022/23" }
+    ]
+  }
+]

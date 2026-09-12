@@ -1,0 +1,22 @@
+[
+  {
+    "categoryName": "Warehouse Structure",
+    "weightPercentage": 25.0,
+    "items": [
+      {
+        "itemId": "0c1d2e3f-a4b5-4c6d-7e8f-9a0b1c2d3e4f",
+        "question": "Is the warehouse structure sound and weather-proof?",
+        "description": "Check for roof leaks, wall integrity, and foundation condition",
+        "isRequired": true,
+        "maxPoints": 10.0
+      },
+      {
+        "itemId": "1d2e3f4a-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
+        "question": "Are ventilation systems adequate and functional?",
+        "description": "Verify air circulation systems are operational",
+        "isRequired": true,
+        "maxPoints": 8.0
+      }
+    ]
+  }
+]

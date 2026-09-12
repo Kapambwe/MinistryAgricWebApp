@@ -1,0 +1,23 @@
+{
+  "projectName": "Barotse Land Restoration Initiative",
+  "durationYears": 40,
+  "targetHectares": 1200000,
+  "districts": ["Mongu", "Limulunga", "Senanga", "Kalabo"],
+  "province": "Western Province",
+  "goals": ["Sustainable Beef Production", "Milk Production", "Carbon Sinks", "Traditional Knowledge Integration"],
+  "partners": [
+    "Ministry of Livestock and Fisheries",
+    "Ministry of Green Economy and Environment",
+    "Pro Green Earth",
+    "Barotse Royal Establishment (BRE)",
+    "Barotse Agricultural Development Company"
+  ],
+  "impact": {
+    "localPeopleAffected": 400000,
+    "residentBenefitPercentage": 50,
+    "proGreenEarthBenefitPercentage": 40,
+    "otherBenefitPercentage": 10
+  },
+  "status": "MOU Signed / Launch Phase",
+  "carbonSinkPotential": "High"
+}

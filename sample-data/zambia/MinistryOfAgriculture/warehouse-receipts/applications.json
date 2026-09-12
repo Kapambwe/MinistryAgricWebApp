@@ -1,0 +1,23 @@
+[
+  {
+    "applicationId": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+    "applicationNumber": "APP-2026-0001",
+    "applicantName": "Southern Storage Solutions",
+    "applicantEmail": "apply@southernstorage.zm",
+    "applicantPhone": "+260 213 444777",
+    "applicationDate": "2026-04-11T14:30:00",
+    "submissionDeadline": "2026-05-11T14:30:00",
+    "status": 1,
+    "businessRegistrationNumber": "BRN-2025-12345",
+    "proposedFinancialSecurity": 400000.0,
+    "proposedWarehouses": [
+      {
+        "warehouseName": "Livingstone Commodity Hub",
+        "location": "Livingstone",
+        "address": "Industrial Zone, Livingstone",
+        "storageCapacity": 4000.0,
+        "commodityTypes": [ "Maize", "Wheat", "Rice" ]
+      }
+    ]
+  }
+]

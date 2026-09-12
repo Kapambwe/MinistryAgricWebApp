@@ -1,0 +1,19 @@
+{
+  "fraudModel": {
+    "modelId": "agri-fraud-v1",
+    "threshold": 0.5,
+    "featureImportances": {
+      "IdentityVerification": 0.18,
+      "TransactionAmount": 0.15,
+      "NetworkConnections": 0.22,
+      "BehavioralAnomaly": 0.20,
+      "GeographicRisk": 0.12,
+      "HistoricalCompliance": 0.13
+    },
+    "topFeatures": [ "NetworkConnections", "BehavioralAnomaly", "IdentityVerification" ]
+  },
+  "anomalyDetection": {
+    "zScoreThreshold": 3.0,
+    "minTransactions": 5
+  }
+}

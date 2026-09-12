@@ -1,0 +1,14 @@
+{
+  "totalDecisions": 1250,
+  "autoApproved": 850,
+  "manualReview": 240,
+  "investigationsCreated": 125,
+  "rejected": 35,
+  "averageRiskScore": 32.5,
+  "decisionsByRiskLevel": {
+    "0": 850,
+    "1": 240,
+    "2": 125,
+    "3": 35
+  }
+}

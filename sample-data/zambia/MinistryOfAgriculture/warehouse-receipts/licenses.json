@@ -1,0 +1,82 @@
+[
+  {
+    "licenseId": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+    "licenseNumber": "WL-2026-0001",
+    "licenseeName": "Zambian Grain Storage Ltd",
+    "issueDate": "2025-01-15T00:00:00",
+    "expiryDate": "2027-01-15T00:00:00",
+    "status": 0,
+    "region": "Lusaka",
+    "contactEmail": "info@zambiangrain.zm",
+    "contactPhone": "+260 211 123456",
+    "financialSecurityAmount": 500000.0,
+    "insurance": {
+      "policyNumber": "INS-2025-001",
+      "provider": "Zambia State Insurance",
+      "coverageAmount": 2000000.0,
+      "startDate": "2025-01-01T00:00:00",
+      "expiryDate": "2026-12-31T00:00:00",
+      "isActive": true
+    },
+    "compliance": {
+      "overallScore": 92.5,
+      "lastAssessmentDate": "2026-01-10T00:00:00",
+      "riskLevel": 0,
+      "inspectionsPassed": 8,
+      "inspectionsFailed": 0
+    },
+    "warehouses": [
+      {
+        "warehouseId": "b2c3d4e5-f6a7-4b6c-9d0e-1f2a3b4c5d6e",
+        "warehouseName": "Lusaka Central Warehouse",
+        "location": "Lusaka",
+        "address": "Plot 123, Industrial Area, Lusaka",
+        "storageCapacity": 5000.0,
+        "currentUtilization": 3200.0,
+        "commodityTypes": [ "Maize", "Wheat", "Soya" ],
+        "latitude": -15.3875,
+        "longitude": 28.3228
+      }
+    ]
+  },
+  {
+    "licenseId": "c3d4e5f6-a7b8-4c7d-0e1f-2a3b4c5d6e7f",
+    "licenseNumber": "WL-2026-0002",
+    "licenseeName": "Northern Agriculture Storage",
+    "issueDate": "2025-03-01T00:00:00",
+    "expiryDate": "2027-03-01T00:00:00",
+    "status": 0,
+    "region": "Northern Province",
+    "contactEmail": "contact@northagric.zm",
+    "contactPhone": "+260 214 555888",
+    "financialSecurityAmount": 300000.0,
+    "insurance": {
+      "policyNumber": "INS-2025-002",
+      "provider": "Professional Insurance",
+      "coverageAmount": 1500000.0,
+      "startDate": "2025-03-01T00:00:00",
+      "expiryDate": "2026-02-28T00:00:00",
+      "isActive": true
+    },
+    "compliance": {
+      "overallScore": 87.0,
+      "lastAssessmentDate": "2026-01-05T00:00:00",
+      "riskLevel": 1,
+      "inspectionsPassed": 6,
+      "inspectionsFailed": 1
+    },
+    "warehouses": [
+      {
+        "warehouseId": "d4e5f6a7-b8c9-4d8e-1f2a-3b4c5d6e7f8a",
+        "warehouseName": "Kasama Storage Facility",
+        "location": "Kasama",
+        "address": "Luwingu Road, Kasama",
+        "storageCapacity": 3000.0,
+        "currentUtilization": 1800.0,
+        "commodityTypes": [ "Maize", "Beans" ],
+        "latitude": -10.2129,
+        "longitude": 31.1808
+      }
+    ]
+  }
+]
